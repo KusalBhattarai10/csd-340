@@ -1,5 +1,9 @@
+<<<<<<< HEAD
  
 /* Set the HTML and body font size to 16px */
+=======
+ /* Set the HTML and body font size to 16px */
+>>>>>>> 4fb48b6118d508090b27cb714a68b1ce70c16bfe
 html, body {
     font-size: 16px;
     font-family: Arial, sans-serif;
@@ -57,4 +61,8 @@ address a:visited {
 /* Style the intro paragraph */
 .intro {
     text-indent: 2em;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4fb48b6118d508090b27cb714a68b1ce70c16bfe
