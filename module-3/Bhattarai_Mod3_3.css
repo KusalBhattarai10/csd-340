@@ -16,51 +16,51 @@ body {
 
 /* Title Styling */
 h1 {
-    text-align: center;          /* Center the h1 title */
+    text-align: center;          
 }
 
 /* Flexbox container for side-by-side divs */
 .flex-container {
-    display: flex;               /* Use flexbox layout */
-    justify-content: space-between; /* Space between divs */
-    gap: 20px;                   /* Add spacing between the divs */
+    display: flex;               
+    justify-content: space-between; 
+    gap: 20px;                   
     margin-bottom: 20px;
 }
 
 /* Left and Right divs */
 .left, .right {
-    width: 45%;                  /* Set width of both divs */
-    box-sizing: border-box;      /* Include padding and border in width */
+    width: 45%;                  
+    box-sizing: border-box;      
 }
 
 /* h3 styling */
 h3 {
-    font-weight: 500;            /* Set h3 weight to 500 */
+    font-weight: 500;           
 }
 
 /* Ordered list (OL) and its title */
 .left ol, .left h3 {
-    border: 1px solid red;       /* 1px solid red border */
-    border-radius: 15px;         /* 15px border radius */
-    padding: 10px;               /* Padding inside the border */
-    list-style: decimal inside;  /* Numbers inside the border */
-    font-weight: 300;            /* Set list weight to 300 */
+    border: 1px solid red;       
+    border-radius: 15px;         
+    padding: 10px;               
+    list-style: decimal inside;  
+    font-weight: 300;            
 }
 
 /* Unordered list (UL) and its title */
 .right ul, .right h3 {
-    border: 1px dashed red;      /* 1px dashed red border */
-    border-radius: 15px;         /* 15px border radius */
-    padding: 10px;               /* Padding inside the border */
-    list-style: upper-roman inside; /* Roman numerals inside the border */
-    font-weight: 300;            /* Set list weight to 300 */
+    border: 1px dashed red;      
+    border-radius: 15px;         
+    padding: 10px;               
+    list-style: upper-roman inside; 
+    font-weight: 300;            
 }
 
 .bottom-div {
-    width: 100%;                  /* Full-width div */
+    width: 100%;                  
     margin-top: 60%;
-    text-align: right;            /* Align the link to the right */
-    margin-bottom: 20px;          /* Add bottom margin */
+    text-align: right;            
+    margin-bottom: 20px;          
 }
 
 /* Back to Portal Page link styling */
@@ -68,11 +68,11 @@ h3 {
     color: #0056b3;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 15px;           /* Add padding to make it look neat */
+    padding: 10px 15px;          
 }
 
 /* Link hover effect */
 .back-link:hover {
-    text-decoration: underline;   /* Show underline on hover */
+    text-decoration: underline;   
     color: #ff5733;
 }
