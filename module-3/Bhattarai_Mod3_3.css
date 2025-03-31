@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Container styling */
+#container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+    text-align: center;          /* Center the h1 title */
+}
+
+/* Flexbox container for side-by-side divs */
+.flex-container {
+    display: flex;               /* Use flexbox layout */
+    justify-content: space-between; /* Space between divs */
+    gap: 20px;                   /* Add spacing between the divs */
+    margin-bottom: 20px;
+}
+
+/* Left and Right divs */
+.left, .right {
+    width: 45%;                  /* Set width of both divs */
+    box-sizing: border-box;      /* Include padding and border in width */
+}
+
+/* h3 styling */
+h3 {
+    font-weight: 500;            /* Set h3 weight to 500 */
+}
+
+/* Ordered list (OL) and its title */
+.left ol, .left h3 {
+    border: 1px solid red;       /* 1px solid red border */
+    border-radius: 15px;         /* 15px border radius */
+    padding: 10px;               /* Padding inside the border */
+    list-style: decimal inside;  /* Numbers inside the border */
+    font-weight: 300;            /* Set list weight to 300 */
+}
+
+/* Unordered list (UL) and its title */
+.right ul, .right h3 {
+    border: 1px dashed red;      /* 1px dashed red border */
+    border-radius: 15px;         /* 15px border radius */
+    padding: 10px;               /* Padding inside the border */
+    list-style: upper-roman inside; /* Roman numerals inside the border */
+    font-weight: 300;            /* Set list weight to 300 */
+}
+
+.bottom-div {
+    width: 100%;                  /* Full-width div */
+    margin-top: 60%;
+    text-align: right;            /* Align the link to the right */
+    margin-bottom: 20px;          /* Add bottom margin */
+}
+
+/* Back to Portal Page link styling */
+.back-link {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;           /* Add padding to make it look neat */
+}
+
+/* Link hover effect */
+.back-link:hover {
+    text-decoration: underline;   /* Show underline on hover */
+    color: #ff5733;
+}
