@@ -35,7 +35,11 @@ h1 {
 
 /* h3 styling */
 h3 {
+<<<<<<< HEAD
     font-weight: 500;            
+=======
+    font-weight: 500;           
+>>>>>>> ae64cef6452090accd2a743afecfa8cf902e902a
 }
 
 /* Ordered list and its title */
@@ -68,11 +72,19 @@ h3 {
     color: #0056b3;
     text-decoration: none;
     font-weight: bold;
+<<<<<<< HEAD
     padding: 10px 15px;           
+=======
+    padding: 10px 15px;          
+>>>>>>> ae64cef6452090accd2a743afecfa8cf902e902a
 }
 
 /* Link hover effect */
 .back-link:hover {
+<<<<<<< HEAD
     text-decoration: underline;  
+=======
+    text-decoration: underline;   
+>>>>>>> ae64cef6452090accd2a743afecfa8cf902e902a
     color: #ff5733;
 }
