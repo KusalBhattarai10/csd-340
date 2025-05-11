@@ -1,0 +1,68 @@
+<<<<<<< HEAD
+ 
+/* Set the HTML and body font size to 16px */
+=======
+ /* Set the HTML and body font size to 16px */
+>>>>>>> 4fb48b6118d508090b27cb714a68b1ce70c16bfe
+html, body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* Paragraph styling */
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+/* Styling for h1 */
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Styling for h2 */
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+}
+
+/* Styling for address */
+address {
+    text-align: center;
+}
+
+/* Style the website URL */
+address a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+/* Hover effect for the website URL */
+address a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+/* Visited pseudo class styling */
+address a:visited {
+    color: #7D5BA6; 
+}
+
+/* Italicize the sentence class */
+.sentence {
+    font-style: italic;
+}
+
+/* Style the intro paragraph */
+.intro {
+    text-indent: 2em;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 4fb48b6118d508090b27cb714a68b1ce70c16bfe
