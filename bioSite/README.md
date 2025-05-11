@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-# csd-340
-My first repository on GitHub
-# H1 CSD 340 Web Development with HTML and CSS
-## H2 Contributors
--  Professor V
-- Kusal Bhattarai
-=======
 # bioSite
 A web project for building a personal bio site using HTML and CSS.
 
@@ -36,5 +28,4 @@ A web project for building a personal bio site using HTML and CSS.
 
 
 
->>>>>>> ac72453 (Initial commit with HTML, CSS, images, and README)
 
