@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSD 340 Web Development with HTML and CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ff5100;
+    }
+
+    .thumbnail {
+      width: 180px;
+      margin: 10px;
+      cursor: pointer;
+      border: 3px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .thumbnail:hover {
+      border-color: #f1f1f1;
+    }
+
+    .mainImage {
+      width: 500px;
+      height: auto;
+      margin-top: 40px;
+      border: 4px solid #ffffff;
+      border-radius: 15px;
+    }
+  </style>
+
+  <script>
+    function displayImage(imageFile) {
+      var mainImage = document.getElementById("mainImage");
+      mainImage.src = imageFile;
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Assignment 10.3: JavaScript - Part 2</h1>
+  <p>Click an image below to view a larger version:</p>
+
+  
+  <img src="images/art.jpg" alt="Image 1" class="thumbnail" onclick="displayImage('images/art.jpg')">
+  <img src="images/mounteverest.jpg" alt="Image 2" class="thumbnail" onclick="displayImage('images/mounteverest.jpg')">
+  <img src="images/beauty.jpg" alt="Image 3" class="thumbnail" onclick="displayImage('images/beauty.jpg')">
+
+
+  <div>
+    <img id="mainImage" src="images/art.jpg" alt="Main Display" class="mainImage">
+  </div>
+</body>
+</html>
