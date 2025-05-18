@@ -1,39 +1,23 @@
-<<<<<<< HEAD
 # csd-340
+
 My first repository on GitHub
-# H1 CSD 340 Web Development with HTML and CSS
-## H2 Contributors
--  Professor V
+
+## CSD 340 Web Development with HTML and CSS
+
+### Contributors
+- Professor V
 - Kusal Bhattarai
-# bioSite
+
+---
+
+### bioSite
+
 A web project for building a personal bio site using HTML and CSS.
 
+---
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+### Course Contributors
 
-</head>
-<body>
-
-  <h1>CSD 340 Web Development with HTML and CSS</h1>
-  
-  <h2>Contributors</h2>
-  <ul>
-    <li> Instructo: Vianelis Martinez </li>
-    <li>Student: Kusal Bhattarai</li>
-  </ul>
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
->>>>>>> ac72453 (Initial commit with HTML, CSS, images, and README)
+- Instructor: Vianelis Martinez  
+- Student: Kusal Bhattarai
 
