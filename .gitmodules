@@ -1,0 +1,3 @@
+[submodule "bioSite"]
+	path = bioSite
+	url = https://github.com/KusalBhattarai10/bioSite.git
