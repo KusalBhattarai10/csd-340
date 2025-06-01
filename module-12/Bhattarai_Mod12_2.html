@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSD 340 Web Development with HTML and CSS</title>
+  <link rel="stylesheet" href="Bhattarai_Mod12_2.css">
+  <style>
+    .book-list {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="container">
+  <h1>Assignment 12.2: JavaScript - Part 4</h1>
+
+  <div class="flex-container">
+    <div class="left">
+      <h3>Top 10 Favorite Books</h3>
+      
+      <!-- Buttons -->
+      <button onclick="displayTopToBottom()">Top to Bottom</button>
+      <button onclick="displayBottomToTop()">Bottom to Top</button>
+      
+      
+      <ol id="bookList" class="book-list"></ol>
+    </div>
+
+    <div class="right">
+      <h3>5 Things I’ve Learned Since the Course Started</h3>
+      <ul>
+        <li>HTML structure and tags.</li>
+        <li>CSS styling and selectors.</li>
+        <li>Linking HTML and CSS files.</li>
+        <li>Creating lists and divs.</li>
+        <li>Organizing content with containers.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="bottom-div">
+    <a href="../index.html">Back to Portal Page</a>
+  </div>
+</div>
+
+
+<script>
+  const books = [
+    "The Great Gatsby",
+    "To Kill a Mockingbird",
+    "1984",
+    "Harry Potter and the Sorcerer's Stone",
+    "The Lord of the Rings",
+    "Pride and Prejudice",
+    "The Catcher in the Rye",
+    "The Hobbit",
+    "Brave New World",
+    "War and Peace"
+  ];
+
+  function displayTopToBottom() {
+    const sortedBooks = [...books].sort(); // Ascend order
+    displayBooks(sortedBooks);
+  }
+
+  function displayBottomToTop() {
+    const sortedBooks = [...books].sort().reverse(); // Descend order
+    displayBooks(sortedBooks);
+  }
+
+  function displayBooks(bookArray) {
+    const listElement = document.getElementById("bookList");
+    listElement.innerHTML = ""; 
+
+    bookArray.forEach(book => {
+      const li = document.createElement("li");
+      li.textContent = book;
+      listElement.appendChild(li);
+    });
+  }
+</script>
+
+</body>
+</html>
